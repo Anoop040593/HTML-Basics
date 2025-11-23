@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h3>About Me - Form</h3>
+    <form>
+        <label for="firstName">First Name</label>
+        <input id="firstName" type="text"  placeholder="First Name"/>
+
+        <br />
+        <br />
+        
+        <label for="lastName">Last Name</label>
+        <input id="lastName" type="text" placeholder="Last Name"/>
+
+        <br />
+        <br >
+
+        <label for="contactNumber">Contact Number</label>
+        <input id="contactNumber" type="tel" autocomplete="off" placeholder="Enter Contact number" maxLength="10" minlength="10"/>
+
+        <br />
+        <br >
+
+        <label for="email">Email</label>
+        <input id="email" type="email" autocomplete="off" placeholder="Enter Email"/>
+
+        <br />
+        <br />
+
+        <label for="password">Password</label>
+        <input id="password" type="password" autocomplete="off" placeholder="Enter Password"/>
+
+        <br />
+        <br />
+
+        <label for="Address">Address</label>
+        <textarea id="Address" rows="4" cols="20" placeholder="Enter your address here..."></textarea>  
+        <br />
+        <br />
+        <div>
+            <label for="male">Male: </label>
+            <input id="male" type="radio" value="male" name="gender" />
+            <label for="female">Female: </label>
+            <input id="female" type="radio" value="female" name="gender" />
+            <label for="other">Other:</label>
+            <input id="other" type="radio" value="other" name="gender" />
+        </div>
+        <br />
+        <br />
+        <label for="dob">Date of Birth</label>
+        <input type="date" />
+
+        <br />
+        <br />
+        <label for="Upload">Upload a Doc</label>
+        <input id="Upload" type="file"> 
+        <br />
+        <br />
+        <label for="city">City:</label>
+        <select id="city">
+            <option value="delhi">Delhi</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="mumbai">Mumbai</option>
+        </select>
+        <br />
+        <br />
+        <label for="eyeColour">Eye Colour</label>
+        <input id="eyeColour" type="color">
+
+        <br />
+        <br />
+
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>
